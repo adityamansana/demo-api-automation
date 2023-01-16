@@ -6,7 +6,7 @@ chai.use(chaiHttp);
 let expect = require("chai").expect;
 chai.use(require('chai-string'));
 let util = require("util");
-let token = "bearer_token"
+let token = "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"
 let new_gist_id = ""
 var commentId = ""
 let baseURI = "https://api.github.com"

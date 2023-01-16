@@ -1,5 +1,5 @@
 {
-  "name": "starwars-checks",
+  "name": "Demo-Api-Automation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test-html": "mocha --timeout 5000",
     "test": "--reporter mochawesome --code=false --inline=true"
   },
-  "author": "",
+  "author": "Aditya Mansana",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
