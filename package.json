@@ -1,0 +1,26 @@
+{
+  "name": "starwars-checks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-html": "mocha --timeout 5000",
+    "test": "--reporter mochawesome --code=false --inline=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-string": "^1.5.0",
+    "expect": "^29.3.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0",
+    "request": "^2.88.2",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "chai-http": "^4.3.0"
+  }
+}
